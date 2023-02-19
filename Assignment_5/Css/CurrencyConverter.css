@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #e6e6ff;
+}
+header{
+    background-color: #000019;
+    width: 100vw;
+    height: 10vh;
+    color:  #e6e6ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+}
+#main{
+    background-color: #9999ff;
+    width: 90vw;
+    height: 80vh;
+    display:flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 5vh;
+    box-shadow: 2px 2px#000099;
+    
+}
+#name{
+    text-align: center;
+    
+}
+#left{
+    background-color: #8080ff !important;
+    height: 70vh;
+    width: 50vw;
+    /* border: 0.5px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:0px 5vw;
+    border-radius: 5px;
+    box-shadow: 2px 2px #000099;
+}
+#right{
+    background-color: #8080ff !important;
+    height: 40vh;
+    width: 30vw;
+    /* border: 0.5px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:0px 5vw;
+    border-radius: 5px;
+
+    box-shadow: 2px 2px #000099;
+}
+input,select{
+    border: none;
+    border-radius: 10px;
+    height: 35px;
+    background-color: #e6e6ff;
+    text-align: center;
+    border-radius: 100px;
+    box-shadow: 2px 2px#000099;
+}
+.button{
+    background-color: #000099;
+    color: #e6e6ff;
+}
+#Result{
+    color: #000099;
+    border-bottom:1.5px solid #000019;
+    border-radius: 100px;
+    box-shadow: 2px 2px#000099;
+}
+#apiInput{
+    font-size: 10px;
+}

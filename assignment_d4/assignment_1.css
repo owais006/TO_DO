@@ -1,0 +1,39 @@
+.container{
+    margin: auto;
+    background: linear-gradient(90deg, rgba(0,212,255,1) 2%, rgba(193,16,125,1) 85%);
+    width: 70vw;
+    height: 80vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.main{
+    /* margin-left: 20%; */
+    width: 50%;
+    background-color: antiquewhite;
+    height: 70%;
+    text-align: center;
+}
+.for_key{
+    /* margin-left: ; */
+    width: 30%;
+    background-color: antiquewhite;
+    height: 70%;
+    text-align: center;
+}
+.key{
+    text-align: center;
+}
+
+.cur{
+   
+    text-align: center;
+}
+
+#select1{
+    width: 35%;
+}
+
+#select2{
+    width: 40%;
+}

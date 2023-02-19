@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Currency</title>
+    <link rel="stylesheet" href="assignment_1.css">
+</head>
+<body onload="get_key()">
+    <div class="container">
+       
+        <div class="main">
+            <h2>CURRENCY CONERSION</h2>
+            <div class="cur">
+            Form:  <select name="" id="select1">
+                <!-- <option value="Currency">Currency</option> -->
+            </select>
+            <br>
+            <br>
+            to: <select name="" id="select2">
+                <!-- <option value="Currency">Currency</option> -->
+            </select>
+        </div>
+<br>
+            <div class="inp">
+                <input id="int1" type="number" placeholder="Ammount"/>
+                <br>
+                <br>
+                <input id="int2" type="number" placeholder=""/>
+            </div>
+          <br>
+         
+        </div>
+        <h2 id="result" style="margin: 5px"></h2>
+        <div class="for_key">
+            <h2>Enter Key</h2>
+            <p id="res" style="color: red;"></p>
+            <div class="key">
+                <input id="api_key" type="text" placeholder="***************"/>
+                <br>
+                <br>
+                <button id="btn" onclick="val()">SAVE</button>
+                
+            </div>
+        </div>
+          
+      </div>
+      <script src="assignment_1.js"></script>
+    
+</body>
+</html>

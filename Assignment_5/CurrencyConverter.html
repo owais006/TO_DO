@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Css/CurrencyConverter.css">
+    <title>Currency Converter</title>
+</head>
+<body onload="display()">
+    <header>
+        <h3 id="name">Currency Converter</h3>
+    </header>
+    <center>
+        <section id="main">
+            <div id="left">
+                <label for="toConvert">To Convert</label>
+                <select id="dropDown1" name="toConvert" ></select><br>
+                
+                <label for="converInto">Convert Into</label>
+                <select id="dropDown2" name="toConvert" ></select><br>
+                
+                <input placeholder="Amount" type="text" name="Amount" id="Amount"><br>
+                <input type="button" onclick="convert()" name="button" class="button" value="Convert"><br>
+                <div id="Result"></div>
+            </div>
+            <div id="right">
+                <label for="ForApi">Enter API</label>
+                <input type="text" name="ForApi" id="apiInput" ><br>
+                <input type="button" name="button" class="button" value="Save" onclick="saveApi()">
+            </div>
+            
+        </section>
+    </center>
+    
+
+
+
+    <script async defer src="./JavaScript/CurrencyConverter.js"></script>
+</body>
+</html>
