@@ -1,0 +1,30 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: rgba(27, 188, 155, 255);
+  margin: auto;
+  position: absolute;
+}
+
+.dot1 {
+  background-color: rgba(255, 255, 255, 255);
+  height: 32vmin;
+  width: 32vmin;
+  border-radius: 17vh;
+  position: absolute;
+  margin-top: 30vmin;
+  margin-left: 17vmin;
+}
+
+.dot2 {
+  background-color: rgba(45, 62, 80, 255);
+  height: 32vmin;
+  width: 32vmin;
+  border-radius: 17vh;
+  position: absolute;
+  margin-top: 35vmin;
+  margin-left: 22vmin;
+}

@@ -1,0 +1,89 @@
+body{
+    background-color: #F39C11;
+    /* display: flex; */
+}
+.lo{
+    display: flex;
+    margin: auto;
+    background-color:#2DBC9D;
+}
+
+.logo {
+    height: 12%;
+    width: 15%;
+    background-color: #E74C3C;
+    /* position: absolute; */
+    position: fixed;
+    left: 20%;
+    top: 0%;
+}
+
+.header {
+    height: 12%;
+    width: 40%;
+    background-color: #9B59B6;
+    /* position: absolute; */
+    position: fixed;
+    left: 36%;
+    top: 0%;
+}
+.banner {
+    height: 30%;
+    width: 56%;
+    background-color: #3498DB;
+    /* position: absolute; */
+    position: fixed;
+    left: 20%;
+    top: 14%;
+}
+
+.sidebar {
+    height: 40%;
+    width: 15%;
+    background-color: #2DBC9D;
+    /* position: absolute; */
+    position: fixed;
+    left: 20%;
+    top: 47%;
+}
+
+.content {
+    height: 40%;
+    width: 40%;
+    background-color: #2ECC71;
+    /* position: absolute; */
+    position: fixed;
+    left: 36%;
+    top: 47%;
+}
+
+.footer {
+    height: 11%;
+    width: 56%;
+    background-color: #F1C410;
+    /* position: absolute; */
+    position: fixed;
+    left: 20%;
+    top: 89%;
+}
+
+.lable{
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 33%;
+    font-size: 4vmin;
+}
+
+.lable2{
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 15%;
+    /*left: 37%; */
+    background: none;
+    font-size: 4vmin;
+ }
+

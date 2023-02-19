@@ -61,6 +61,8 @@ function add_items(v) {
 
 function init() {
   console.log("hello");
+  var res = document.getElementById("result");
+  res.innerHTML = `Your Up comming TASK`;
   var items = JSON.parse(localStorage.getItem("task"));
   if (items != null) {
     todo_list = items;
@@ -89,8 +91,8 @@ function display() {
     var ico2 = document.createElement("div");
     var ico3 = document.createElement("div");
     var ico4 = document.createElement("div");
-    var chk = document.createElement("INPUT");
-    chk.setAttribute("type", "checkbox");
+    var chk1 = document.createElement("INPUT");
+    chk1.setAttribute("type", "checkbox");
     var span4 = document.createElement("Span");
 
     ico.innerHTML = `<i class="fa fa-trash"></i>`;
@@ -106,7 +108,7 @@ function display() {
     span2.appendChild(ico2);
     span3.appendChild(ico4);
     span3.appendChild(ico3);
-    span4.appendChild(chk);
+    span4.appendChild(chk1);
 
     li.appendChild(span);
     li.appendChild(span2);
@@ -130,12 +132,29 @@ function display() {
     }
 
     for (const v of ul.children) {
-      span4.onclick = function () {
-        // ico2.style.display="none";
-        console.log(span4.id);
-        console.log(v.id);
+      span4.onclick = function() {
+        var complete=todo_list[v.id].data.content;
+        // ico2.id.style.display="none";
+        // for(const ch of span2.children){
+        //   console.log(ch);
+        //   // ch.style.display="none";
+        //   console.log(count)
+        // }
+        console.log(i);
+        v.style.backgroundColor="lightgreen";
+        // console.log(chk.len)
       };
     }
+    // for (i = 0; i <chk.length; i++) {
+    //   chk[i].onclick = function() {
+    //     // console.log(edi[0]);
+    //   var div = this.firstChild;
+    //   var div2=this.parentElement;
+    //   div2.style.backgroundColor="lightgreen";
+    //   div.style.display = "none";
+    //   console.log(i);
+    //   }
+    // }
   }
 }
 
@@ -168,7 +187,6 @@ function edit_items(v) {
   document.getElementById("myInput").value = todo_list[v].data.content;
   flag = 1;
   edit_id = v;
-  // add_items(v);
   console.log(v);
   // console.log("edit")
 }
