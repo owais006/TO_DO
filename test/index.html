@@ -1,0 +1,85 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- App title -->
+    <title>Responsive Pure CSS Menu</title>
+    <!-- Link CSS file -->
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+<body>
+    <!-- Navigation bar -->
+    <header class="header">
+        <!-- Logo -->
+        <a href="#" class="logo"><img src="../images/logo.png" alt=""></a>
+        <!-- Hamburger icon -->
+        <input class="side-menu" type="checkbox" id="side-menu"/>
+        <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+        <link rel="stylesheet" href="../test/css/index.css">
+        <!-- Menu -->
+        <nav class="nav">
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <!-- <li><a href="#">Resipies</a></li> -->
+                <li><a href="#">About</a></li>
+                <li><a href="../test/recipies.html">Resipies</a> </li>
+                <li><a href="#">contact</a> </li>
+                <li><a href="#">login</a> </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Main content -->
+    <main>
+        <div class="ban" id="banner"><img id="bann" src="../images/banner.png" alt=""></div>
+        <div class="feat">
+            <div class="f_head"> Features</div>
+            <div class="grid-container">
+                <div class="grid-item"><div class="f_1"><img id="p" src="../images/icon-knowledgebase.png" alt=""></div></div>
+                <div class="grid-item"><div class="f_1"><img class="pos" src="../images/icon-ui.png" alt=""></div></div>
+                <div class="grid-item"><div class="f_1"><img class="pos" src="../images/icon-collaborate.png" alt=""></div></div>  
+                <div class="grid-item"><div class="f_1"><img class="po" src="../images/icon-responsive.png" alt=""></div></div>
+                <div class="grid-item"><div class="f_1"><img class="po" src="../images/icon-create-task.png" alt=""></div></div>
+                <div class="grid-item"><div class="f_1"><img  class="po" src="../images/icon-search.png" alt=""></div></div>  
+                <div class="grid-item"><div class="f_1"><img class="pos" src="../images/icon-manage.png" alt=""></div></div>
+                <div class="grid-item"><div class="f_1"><img class="pos" src="../images/icon-acl.png" alt=""></div></div>
+                <div class="grid-item"><div class="f_1"><img class="pos"src="../images/icon-theme.png" alt=""></div></div>  
+              </div>
+        </div>
+        <div class="work">
+            <div class="w_head"> How its work</div>
+            <div class="video"><video width="1000" height="500" controls>
+                <source src="../test/video/file_example_MP4_480_1_5MG.mp4" type="video/mp4">
+            
+              </video></div>
+        </div>
+
+        <div class="cont">
+            <div class="c_head">Contect Us</div>
+            <div class="para"><p>We belive in power of relationship and we want to getto know you more </p></div>
+            <div class="para"><p>Lets contact us </p></div>
+        </div>
+        <div class="form">
+                <input class="int" type="text" id="name" placeholder="Your name">
+                <p id="result" style="color:red; text-align: left;"></p>
+                <input class ="int" type="email" id="email" placeholder="Your Email">
+                <p id="result2" style="color:red; text-align: left;margin-left: 15%;"></p>
+                <textarea class="int"  name="massage" id="massage" cols="30" rows="7" placeholder="Your message query"></textarea>
+                <button class="btn" onclick="d_d()">Submit</button>
+        </div>
+
+        <div class="footer">
+            <div class="foot_head">JOIN OUR NEWSLETTER</div>
+            <div class ="sub">
+                <div class="news_logo"><img src="../images/newsletter.png" alt=""></div>
+                <div class="one">
+                <input type="text"id="mail"  class="sub_input">
+                <button class="sub_btn"  onclick="dta()">Subscribe</button>
+                <p id="result2" style="color:red; text-align: left;margin-left: 15%;"></p>
+            </div>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="../test/js/index.js"></script>
+</html>

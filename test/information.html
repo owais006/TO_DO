@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- App title -->
+    <title>Responsive Pure CSS Menu</title>
+    <!-- Link CSS file -->
+    <link rel="stylesheet" href="../test/css/index.css">
+</head>
+<body  onload="get_data()">
+    <!-- Navigation bar -->
+    <header class="header">
+        <!-- Logo -->
+        <a href="#" class="logo"><img src="../images/logo.png" alt=""></a>
+        <!-- Hamburger icon -->
+        <input class="side-menu" type="checkbox" id="side-menu"/>
+        <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+      
+        <!-- Menu -->
+        <nav class="nav">
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <!-- <li><a href="#">Resipies</a></li> -->
+                <li><a href="#">About</a></li>
+                <li><a href="#">Resipies</a> </li>
+                <li><a href="#">contact</a> </li>
+                <li><a href="#">login</a> </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="recipes_info">
+        <div class="name" id="na"></div>
+        <div class="imag" id="im"></div>
+        <div class ="detail">
+            <div class="d" id="de"></div>
+            <div class="d" id="de2"></div>
+            <div class="d" id="de3"></div>
+        </div>
+        <div class ="ing" id ="in"></div>
+        <div class="ins_video" id =instr>
+            <div id="instruction"></div>
+            <div id="vi"><video width="600" height="300" controls>
+            
+              </video> </div>
+        </div>
+    </div>
+    </main>
+</body>
+<script src="../test/js/index.js"></script>
+</html>
